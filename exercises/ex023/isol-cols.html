@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isolamento de colunas</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 400px;
+            height: 200px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        th, td {
+            border: 2px solid black;
+        }
+        col.red {
+            background-color: red;
+        }
+        col.blue {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+        <col class="red">
+        <col class="white" span="2">
+        <col class="blue">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Ana Maria</th>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <th>Rafaela</th>
+                <td>F</td>
+                <td>19</td>
+                <td>Vendedora</td>
+            </tr>
+            <tr>
+                <th>Marcos</th>
+                <td>M</td>
+                <td>50</td>
+                <td>Vigilante</td>
+            </tr>
+            <tr>
+                <th>Matheus</th>
+                <td>M</td>
+                <td>27</td>
+                <td>Office Boy</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
