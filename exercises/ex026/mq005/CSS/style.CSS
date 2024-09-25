@@ -58,7 +58,7 @@ menu > nav > ul > li > a:hover {
 }
 
 main {
-    width: 60vh;
+    max-width: 60vh;
     background-color: white;
     margin: auto;
     border-radius: 10px;
