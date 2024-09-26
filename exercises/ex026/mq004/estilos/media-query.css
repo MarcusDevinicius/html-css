@@ -6,7 +6,7 @@
 
 Extra small: width < 576px
 Smartphones: width >=576px width <= 767px
-Tablets: width > 768px width <= 991px
+Tablets: width => 768px width <= 991px
 Desktops;
     Large: width >= 992px width <= 1199px
     Extralarge: width >= 1200px*/
