@@ -6,24 +6,16 @@
     <title>Flexible box</title>
     <style>
         div.container {
-            width: 40vw;
-            margin: auto;
             background-color: brown;
             display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            padding: 5px;
-            border-radius: 10px;
+            flex-flow: row nowrap;
+            justify-content: center;
         }
 
         div.item {
             background-color: lightblue;
-            margin-right: 5px;
-            margin-top: 5px;
-            border-radius: 10px;
             border: 1px solid black;
             text-align: center;
-            padding: 10px;
         }
     </style>
 </head>
