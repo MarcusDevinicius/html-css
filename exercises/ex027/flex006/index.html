@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align-content</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: lightcoral;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        section {
+            border-radius: 10px;
+            background-color: white;
+            width: 80vw;
+            height: 650px;
+            display: flex;
+            flex-flow: row wrap;
+            align-content: space-evenly;
+            justify-content: space-between;
+        }
+
+        div {
+            background-color: black;
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+    </main>
+</body>
+</html>
