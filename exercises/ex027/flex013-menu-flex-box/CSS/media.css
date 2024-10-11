@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@media screen and (width > 768px) {
+    #cabecalho {
+        display: flex;
+        flex-flow: column nowrap;
+        height: 125px;
+        width: 100vw;
+    }
+
+    #cabecalho h1 {
+        align-self: flex-start;
+    }
+
+    #cabecalho menu {
+        margin-left: 40px;
+    }
+
+    #cabecalho > menu > span {
+        display: none;
+    }
+
+    #cabecalho > menu > #lista-ops {
+        width: 95vw;
+        display: flex;
+        flex-flow: row wrap;
+        gap: 10px;
+    }
+
+    #cabecalho menu li {
+        width: 100px;
+    }
+
+    main {
+        width: 80vw;
+    }
+}
+
+@media screen and (width > 992px) {
+    #cabecalho {
+        height: 100px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        
+    }
+
+    #cabecalho h1 {
+        align-self: center;
+    }
+
+    #cabecalho > menu > #lista-ops {
+        width: 650px;
+    }
+
+    main {
+        width: 100vh;
+    }
+}
