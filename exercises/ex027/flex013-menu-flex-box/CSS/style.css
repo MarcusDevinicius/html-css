@@ -38,6 +38,10 @@
     cursor: pointer;
 }
 
+#cabecalho > menu > span:hover {
+    background-color: var(--colblue);
+}
+
 #cabecalho > menu > #lista-ops {
     list-style-type: none;
     justify-self: center;

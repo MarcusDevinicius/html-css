@@ -13,14 +13,14 @@
     <header id="cabecalho">
         <h1>Meu site</h1>
         <menu>
-            <span class="material-symbols-outlined">menu</span>
+            <span class="material-symbols-outlined" onclick="clicouMenu()">menu</span>
             <ul id="lista-ops">
-                <li><a href="">Opção 1</a></li>
-                <li><a href="">Opção 2</a></li>
-                <li><a href="">Opção 3</a></li>
-                <li><a href="">Opção 4</a></li>
-                <li><a href="">Opção 5</a></li>
-                <li><a href="">Opção 6</a></li>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+                <li><a href="#">Opção 6</a></li>
             </ul>
         </menu>
     </header>
@@ -28,5 +28,15 @@
         <h2>Teste de flex-Box</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloremque atque repellendus possimus necessitatibus aliquam vel soluta ex eos? Cumque iusto distinctio nemo hic debitis deserunt accusamus accusantium quis voluptatem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, similique sed at quae numquam tenetur cupiditate repellendus! Quas facilis eos doloribus porro labore provident, enim doloremque excepturi, non consectetur at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem asperiores tenetur vero repellat impedit reiciendis et, enim vel! Corrupti unde incidunt quidem commodi molestias, fuga expedita iusto facilis aspernatur natus.</p>
     </main>
+    <script>
+        function clicouMenu() {
+            if (lista-ops.style.display == 'block') {
+                lista-ops.style.display == 'none';
+            }
+            else {
+                lista-ops.style.display == 'block'
+            }
+        }
+    </script>
 </body>
 </html>
